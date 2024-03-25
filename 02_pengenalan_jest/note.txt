@@ -1,0 +1,23 @@
+#NODEJS ASSERTION PACKAGE
+
+- Nodejs sendiri sebenarnya memiliki package untuk melakukan assertion, 
+    namun jarnag sekali orang menggunakan package tersebut
+- programmer nodejs kebanyakan menggunakan library untuk melakukan 
+    unit test
+
+#PENGENALAN JEST
+- Jest adalah salah satu library untuk unit test nodejs yang sangat populer
+- jest sendiri di buat oleh facebook
+- jest terintegrasi sangat baik dengan banyak teknologi seperti NODEJS, REACTJS VUEJS DLL
+- jest fokus pada kesederhanaan, sehingga penggunanya sangat mudah untuk pemula yang ingin mencoba unit test.
+
+#MENJALANKAN JEST
+-untuk menjalankan jest masuk ke node_modules/.bin/jest
+-kemudian kita bisa membuat shortcut di package.json mengisi "test" : "jest"
+-untuk menjalankan unit test menggunakan perintah npm test
+
+#NPX NODE PACKAGE RUNNER
+-menjalankan perintah jest lumayan ribet karena kita harus selalu menjalaknkan melalui folder node_modules/.bin.
+- untungnya di nodejs terdapat program bernama npx (Node Package Runner)
+- NPX ini di gunakan spesial untuk menjalankan perintah yang bisa secara otomatis mendeteksi file yang terdapat di node_modules/.bin/
+-jadi untuk menjalankan jest bisa menggunakan perintah npx jest
