@@ -1,0 +1,6 @@
+#MEMBUAT TEST
+
+-jest sudah menyediakan function yang di registrasikan secara global bernama test(). function tersebut digunakan unutk membuat unit test.
+
+-test() memiliki parameter bernama unit test dan juga function yang berisi kode unit test nya.
+
