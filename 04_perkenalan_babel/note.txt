@@ -1,0 +1,14 @@
+#KEKURANGAN JEST
+- Sejak awal belajar nodejs, kita selalu menggunakan javascript modules.
+- sayangnya, Jest sampai di buatnya materi ini belum mendukung javascript modules, masih menggunakan cara lama menggunakan commonJS dengan memanfaatkan require()
+-utung nya masih ada library bernama babel js yang bisa di gunakan untuk membantu JEST
+
+#JEST CODE TRANSFORMATION
+- Jest mendukung code transformation, yaitu fitur dimana kita bisa melakukan pengubahan kode program sebelum dijalankan oleh Jest
+- fitur ini yang di manfaatkan untuk melakukan kompileasi kode ke js yang di mengerti oleh jest memanfaatkan library babel
+
+ 
+ #babel
+ - babel adalah js compiler yang di gunakan untuk melakukan kompilasi kode js ke kode js bersi berbeda. biasanya untuk ke versi lebih lama agar kompatibel dengan bersi lama
+ -dengan babel kita bisa membuat kode program dengan fitu js terbaru. seperti modules tapi bisa di compile menjadi kode js lama sehingga compatible ketika di jalankan teknologi lama atau belum mendukung fitur js baru
+ - https://babelis.io
