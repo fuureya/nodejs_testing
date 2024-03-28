@@ -1,0 +1,9 @@
+#equals matcher
+- salah satu matchers yang biasa di gunakan ketika membuat unit test adalah equals matchers
+- ini di gunakan untuk memastikan data sesuai atau sama dengan ekspetasi kita.
+
+#equals matcher function
+
+- expect(value).toBe(expect) => value sama dengan expected, biasanya digunakan untuk value bukan object
+- expect(value).toEqual(expect) => value sama dengan expect dimana membandingkan semua properties secara rekursif
+

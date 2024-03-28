@@ -1,0 +1,9 @@
+#Matcher
+
+- Saat kita membuat unit test, hal yang di lakukan adala kita biasanya memiliki ekspetasi.
+- contoh pada kode sum(). sebelumnya ketika kita panggil function sum() dengan parameter 1 dan 2 ekspetasi kita adakah hasil return dari function  sum() tersebut adalah 3
+- di jest ini di namakan Matcher
+
+
+#Expect function
+- matcher di jest di representasika dalam sebuah function bernama expect(value)
