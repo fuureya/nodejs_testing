@@ -1,0 +1,6 @@
+#truthiness matcher
+
+- dalam unit test, kadang kita ingin membedakan antara undefined, null, false
+- dan kadang kita ingin melakukan ekspetasi nilai tersebut
+- jest memiliki matcher untuk melakukan hal tersebut
+
